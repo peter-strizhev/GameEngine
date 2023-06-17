@@ -1,10 +1,15 @@
 #include "global_header.h"
 #include "DE_engine_random.h"
 
+#define main SDL_main
+
+#include "SDL.h"
+
 int main(int argc, char* argv[])
 {
 	int seed = DE_Random_Seed();
 	printf("%d", seed);
+	return 0;
 }
 
 // TODO
