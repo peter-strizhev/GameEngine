@@ -1,5 +1,7 @@
 #pragma once
 
+#include "global_header.h"
+
 // Clamp function for float
 float DE_Math_Clamp_Float(float value, float min, float max);
 // Clamp function for int

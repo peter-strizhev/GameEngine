@@ -3,6 +3,9 @@
 #include <Windows.h>
 #include <math.h>
 
+#include <time.h>
+#include <stdio.h>
+
 #define PI 3.14159265358979323846264338327950288419716939937510
 
 #define _X64_

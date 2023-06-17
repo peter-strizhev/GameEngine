@@ -1,19 +1,10 @@
-#include <stdio.h>
-#include "DE_Graphics_Engine.h"
+#include "global_header.h"
+#include "DE_engine_random.h"
 
-int main(void)
+int main(int argc, char* argv[])
 {
-	HelloTriangleApp app;
-
-	try {
-		app.run();
-	}
-	catch (const std::exception& e)
-	{
-		std::cerr << e.what() << std::endl;
-		return EXIT_FAILURE;
-	}
-	return EXIT_SUCCESS;
+	float value = DE_Random_Float();
+	printf("%f", value);
 }
 
 // TODO

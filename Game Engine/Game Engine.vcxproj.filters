@@ -65,9 +65,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="global_header.h">
-      <Filter>Header Files\Other\Engine Backend</Filter>
-    </ClInclude>
     <ClInclude Include="DE_engine_math.h">
       <Filter>Header Files\Other\Math functions</Filter>
     </ClInclude>
@@ -85,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="DE_Graphics_Engine.h">
       <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="global_header.h">
+      <Filter>Header Files\Other\Engine Backend</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
