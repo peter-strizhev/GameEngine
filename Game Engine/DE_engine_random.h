@@ -1,4 +1,17 @@
+#pragma once
+
 #include "global_header.h"
+
+// Random functions
+// random bool - done
+// random int - done
+// random int range - done
+// random float - done
+// random float range - done
+// random seed - done
+// random gaussian 
+// random noise 
+// random noise seed 
 
 void DE_Random_Update(void) {
 	srand((unsigned int)time(NULL));
@@ -38,4 +51,3 @@ int DE_Random_Seed(void) {
 	DE_Random_Update();
 	return rand();
 }
-

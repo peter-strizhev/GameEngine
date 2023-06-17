@@ -3,12 +3,12 @@
 
 int main(int argc, char* argv[])
 {
-	float value = DE_Random_Float();
-	printf("%f", value);
+	int seed = DE_Random_Seed();
+	printf("%d", seed);
 }
 
 // TODO
-// Find name for Engine
+// Find name for Engine - done
 // Dynamo Engine
 
 // Engine Run Function
@@ -40,30 +40,30 @@ int main(int argc, char* argv[])
 	// distance calculations - 
 	// degree to radians and vice versa -
 
-// Vector Math functions -
-// Vector set -
-// Vector zero -
-// Vector negate -
-// Vector add -
-// vector normalize -
-// vector scale -
-// matrix multiply -
-// vector length -
-// vector distance -
-// vector dot -
-// vector cross product -
-// vector angle -
+// Vector Math functions - done
+// Vector set - done
+// Vector zero - done
+// Vector negate - done
+// Vector add - done
+// vector normalize - done
+// vector scale - done
+// matrix multiply - done
+// vector length - done
+// vector distance - done
+// vector dot - done
+// vector cross product - done
+// vector angle - done
 
-// Matrix functions -
-// Matrix set -
-// Matrix identity - 
-// Matrix scale -
-// Matrix translate -
-// Matrix rotate -
-// matrix rotate rads -
-// Matrix transpose -
-// Matrix inverse -
-// matrix multiply -
+// Matrix functions - done
+// Matrix set - done
+// Matrix identity -  done
+// Matrix scale - done
+// Matrix translate - done
+// Matrix rotate - done
+// matrix rotate rads - done
+// Matrix transpose - done
+// Matrix inverse - done
+// matrix multiply - done
 
 // Random functions
 // random bool

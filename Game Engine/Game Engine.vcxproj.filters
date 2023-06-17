@@ -42,49 +42,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DE_engine_math.c">
-      <Filter>Header Files\Other\Math functions</Filter>
-    </ClCompile>
-    <ClCompile Include="DE_engine_input.c">
-      <Filter>Header Files\Input functions</Filter>
-    </ClCompile>
-    <ClCompile Include="DE_engine_matrix.c">
-      <Filter>Header Files\Other\Matrix functions</Filter>
-    </ClCompile>
-    <ClCompile Include="DE_engine_vector.c">
-      <Filter>Header Files\Other\Vector functions</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DE_engine_random.c">
-      <Filter>Header Files\Other\Random functions</Filter>
+    <ClCompile Include="DE_engine_matrix.h">
+      <Filter>Header Files\Other\Matrix functions</Filter>
     </ClCompile>
-    <ClCompile Include="DE_Graphics_Engine.cpp">
-      <Filter>Header Files\Graphics</Filter>
+    <ClCompile Include="DE_engine_math.h">
+      <Filter>Header Files\Other\Math functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_engine_vector.h">
+      <Filter>Header Files\Other\Vector functions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DE_engine_math.h">
-      <Filter>Header Files\Other\Math functions</Filter>
-    </ClInclude>
     <ClInclude Include="DE_engine_input.h">
       <Filter>Header Files\Input functions</Filter>
-    </ClInclude>
-    <ClInclude Include="DE_engine_matrix.h">
-      <Filter>Header Files\Other\Matrix functions</Filter>
-    </ClInclude>
-    <ClInclude Include="DE_engine_vectors.h">
-      <Filter>Header Files\Other\Vector functions</Filter>
     </ClInclude>
     <ClInclude Include="DE_engine_random.h">
       <Filter>Header Files\Other\Random functions</Filter>
     </ClInclude>
-    <ClInclude Include="DE_Graphics_Engine.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
     <ClInclude Include="global_header.h">
       <Filter>Header Files\Other\Engine Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_graphics_engine.h">
+      <Filter>Header Files\Graphics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -153,21 +153,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DE_engine_input.c" />
-    <ClCompile Include="DE_engine_math.c" />
-    <ClCompile Include="DE_engine_matrix.c" />
-    <ClCompile Include="DE_engine_random.c" />
-    <ClCompile Include="DE_engine_vector.c" />
-    <ClCompile Include="DE_Graphics_Engine.cpp" />
+    <ClCompile Include="DE_engine_math.h" />
+    <ClCompile Include="DE_engine_matrix.h" />
+    <ClCompile Include="DE_engine_vector.h" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DE_engine_input.h" />
-    <ClInclude Include="DE_engine_math.h" />
-    <ClInclude Include="DE_engine_matrix.h" />
     <ClInclude Include="DE_engine_random.h" />
-    <ClInclude Include="DE_engine_vectors.h" />
-    <ClInclude Include="DE_Graphics_Engine.h" />
+    <ClInclude Include="DE_graphics_engine.h" />
     <ClInclude Include="global_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
