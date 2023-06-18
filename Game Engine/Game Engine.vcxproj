@@ -165,6 +165,7 @@
   <ItemGroup>
     <ClInclude Include="DE_engine_input.h" />
     <ClInclude Include="DE_engine_random.h" />
+    <ClInclude Include="DE_engine_time.h" />
     <ClInclude Include="DE_graphics_engine.h" />
     <ClInclude Include="global_header.h" />
   </ItemGroup>

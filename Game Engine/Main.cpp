@@ -1,5 +1,6 @@
 #include "global_header.h"
 #include "DE_engine_random.h"
+#include "DE_engine_vector.h"
 
 #define main SDL_main
 
@@ -7,8 +8,24 @@
 
 int main(int argc, char* argv[])
 {
-	int seed = DE_Random_Seed();
-	printf("%d", seed);
+	DE_Vector2 windowDimensions = DE_Vector_Set(640, 480);
+
+	DE_Vector2 screenSize = DE_Vector_Set(GetSystemMetrics(SM_CXSCREEN), GetSystemMetrics(SM_CYSCREEN));
+
+	DE_Vector2 screenLocation = DE_Vector_Set(
+		(screenSize.x / 2) - (windowDimensions.x / 2),
+		screenLocation.y = (screenSize.y / 2) - (windowDimensions.y / 2)
+	);
+
+	SDL_Window* newWindow = SDL_CreateWindow(
+		"Testing",
+		screenLocation.x,
+		screenLocation.y,
+		windowDimensions.x,
+		windowDimensions.y,
+		0
+	);
+	Sleep(4000);
 	return 0;
 }
 
@@ -23,7 +40,7 @@ int main(int argc, char* argv[])
 
 // Define window size
 // Option for fullscreen
-// Get display width and height
+// Get display width and height - Done
 // Counters for frame rates
 	// get frame rate
 	// set frame rate
@@ -71,12 +88,12 @@ int main(int argc, char* argv[])
 // matrix multiply - done
 
 // Random functions
-// random bool
-// random int
-// random int range
-// random float
-// random float range
-// random seed
+// random bool - Done
+// random int - Done
+// random int range - Done
+// random float - Done
+// random float range - Done
+// random seed - Done
 // random gaussian
 // random noise
 // random noise seed

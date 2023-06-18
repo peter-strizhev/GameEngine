@@ -14,6 +14,8 @@
 #define TRUE 1
 #define FALSE 0
 
+#define null NULL
+
 typedef struct DE_Vector2 {
 	float vec[2];
 	struct { float x, y; };

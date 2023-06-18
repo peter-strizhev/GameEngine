@@ -40,6 +40,9 @@
     <Filter Include="Header Files\Other\Random functions">
       <UniqueIdentifier>{1e24a215-1e72-4432-93f9-5fbbe4cfa454}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Other\Time Functions">
+      <UniqueIdentifier>{cc0538b8-d7d3-400f-9a1f-38907e11da3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -67,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="DE_graphics_engine.h">
       <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_engine_time.h">
+      <Filter>Header Files\Other\Time Functions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
