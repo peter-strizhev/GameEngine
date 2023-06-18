@@ -1,5 +1,4 @@
 #include "global_header.h"
-#include "DE_engine_random.h"
 #include "DE_engine_vector.h"
 
 #define main SDL_main
@@ -10,7 +9,7 @@ int main(int argc, char* argv[])
 {
 	DE_Vector2 windowDimensions = DE_Vector_Set(640, 480);
 
-	DE_Vector2 screenSize = DE_Vector_Set(GetSystemMetrics(SM_CXSCREEN), GetSystemMetrics(SM_CYSCREEN));
+	DE_Vector2 screenSize = DE_Vector_Set((float)GetSystemMetrics(SM_CXSCREEN), (float)GetSystemMetrics(SM_CYSCREEN));
 
 	DE_Vector2 screenLocation = DE_Vector_Set(
 		(screenSize.x / 2) - (windowDimensions.x / 2),
@@ -19,10 +18,10 @@ int main(int argc, char* argv[])
 
 	SDL_Window* newWindow = SDL_CreateWindow(
 		"Testing",
-		screenLocation.x,
-		screenLocation.y,
-		windowDimensions.x,
-		windowDimensions.y,
+		(int)screenLocation.x,
+		(int)screenLocation.y,
+		(int)windowDimensions.x,
+		(int)windowDimensions.y,
 		0
 	);
 	Sleep(4000);

@@ -157,8 +157,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DE_engine_math.c" />
     <ClCompile Include="DE_engine_math.h" />
+    <ClCompile Include="DE_engine_matrix.c" />
     <ClCompile Include="DE_engine_matrix.h" />
+    <ClCompile Include="DE_engine_random.c" />
+    <ClCompile Include="DE_engine_time.c" />
+    <ClCompile Include="DE_engine_vector.c" />
     <ClCompile Include="DE_engine_vector.h" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>

@@ -57,6 +57,21 @@
     <ClCompile Include="DE_engine_vector.h">
       <Filter>Header Files\Other\Vector functions</Filter>
     </ClCompile>
+    <ClCompile Include="DE_engine_vector.c">
+      <Filter>Header Files\Other\Vector functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_engine_random.c">
+      <Filter>Header Files\Other\Random functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_engine_matrix.c">
+      <Filter>Header Files\Other\Matrix functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_engine_math.c">
+      <Filter>Header Files\Other\Math functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DE_engine_time.c">
+      <Filter>Header Files\Other\Time Functions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DE_engine_input.h">

@@ -2,75 +2,27 @@
 
 #include "global_header.h"
 
-DE_Vector2 DE_Vector_Set(float x, float y)
-{
-	DE_Vector2 vec;
-	vec.x = x;
-	vec.y = y;
+/// <summary>
+/// Creates a Vector2 and initializes with given X and Y values
+/// </summary>
+/// <param name="x">value to set</param>
+/// <param name="y">value to set</param>
+/// <returns>Vector2 with set values</returns>
+DE_Vector2 DE_Vector_Set(float x, float y);
 
-	return vec;
-}
+DE_Vector2 DE_Vector_Zero(void);
 
-DE_Vector2 DE_Vector_Zero(void)
-{
-	DE_Vector2 zeroVec;
-	zeroVec.x = 0.0f;
-	zeroVec.y = 0.0f;
+DE_Vector2 DE_Vector_Negate(DE_Vector2 vec);
 
-	return zeroVec;
-}
+DE_Vector2 DE_Vector_Add(DE_Vector2 a, DE_Vector2 b);
 
-DE_Vector2 DE_Vector_Negate(DE_Vector2 vec)
-{
-	vec.x *= -1;
-	vec.y *= -1;
+DE_Vector2 DE_Vector_Subtract(DE_Vector2 a, DE_Vector2 b);
 
-	return vec;
-}
+DE_Vector2 DE_Vector_Normalize(DE_Vector2 vec);
 
-DE_Vector2 DE_Vector_Add(DE_Vector2 a, DE_Vector2 b)
-{
-	DE_Vector2 vec;
-	vec.x = a.x + b.x;
-	vec.y = a.y + b.y;
+DE_Vector2 DE_Vector_Scale(DE_Vector2 vec, float scale);
 
-	return vec;
-}
-
-DE_Vector2 DE_Vector_Subtract(DE_Vector2 a, DE_Vector2 b)
-{
-	DE_Vector2 vec;
-	vec.x = b.x - a.x;
-	vec.y = b.y - b.x;
-
-	return vec;
-}
-
-DE_Vector2 DE_Vector_Normalize(DE_Vector2 vec)
-{
-	vec.x = (float)fabs((float)vec.x);
-	vec.y = (float)fabs((float)vec.y);
-
-	return vec;
-}
-
-DE_Vector2 DE_Vector_Scale(DE_Vector2 vec, float scale)
-{
-	vec.x = scale * vec.x;
-	vec.y = scale * vec.y;
-
-	return vec;
-}
-
-DE_Vector2 DE_Vector_MatrixMultiply(DE_Matrix mat, DE_Vector2 vec)
-{
-	DE_Vector2 newVec;
-
-	newVec.x = mat.f00 * vec.x + mat.f01 * vec.y + mat.f02 * 0;
-	newVec.y = mat.f10 * vec.x + mat.f11 * vec.y + mat.f12 * 0;
-
-	return newVec;
-}
+DE_Vector2 DE_Vector_MatrixMultiply(DE_Matrix mat, DE_Vector2 vec);
 
 // Fix Later
 //float DE_Vector_Length(DE_Vector2 vec)
