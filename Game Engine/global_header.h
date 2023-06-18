@@ -6,10 +6,10 @@
 #include <time.h>
 #include <stdio.h>
 
-#define PI 3.14159265358979323846264338327950288419716939937510
-
 #define _X64_
 #include <windef.h>
+
+#define PI 3.14159265358979323846264338327950288419716939937510
 
 #define TRUE 1
 #define FALSE 0
@@ -21,14 +21,29 @@ typedef struct DE_Vector2 {
 	struct { float x, y; };
 } DE_Vector2;
 
-typedef struct DE_Matrix {
+typedef struct DE_Vector3 {
+	float vec[3];
+	struct { float x, y, z; };
+} DE_Vector3;
+
+typedef struct DE_Vector4 {
+	float vec[4];
+	struct { float x, y, z, w; };
+} DE_Vector4;
+
+typedef struct DE_ColorVector {
+	float vec[4];
+	struct { float r, g, b, a; };
+} DE_ColorVector;
+
+typedef struct DE_Matrix3x3 {
 	float mat[3][3];
 	struct {
 		float f00, f01, f02;
 		float f10, f11, f12;
 		float f20, f21, f22;
 	};
-} DE_Matrix;
+} DE_Matrix3x3;
 
 typedef unsigned int DE_BOOL;
 
