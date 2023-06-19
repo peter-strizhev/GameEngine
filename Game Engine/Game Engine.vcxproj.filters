@@ -19,9 +19,6 @@
     <Filter Include="Header Files\Graphics">
       <UniqueIdentifier>{4015a176-1ccb-47f8-b624-78a0f27013da}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\InputOutput">
-      <UniqueIdentifier>{5e5801b2-23dc-4ab4-85f8-e063ae6dcd2c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Other">
       <UniqueIdentifier>{e952879f-566b-43e4-a3e6-ea1c91a76037}</UniqueIdentifier>
     </Filter>
@@ -43,11 +40,14 @@
     <Filter Include="Header Files\Other\Time Functions">
       <UniqueIdentifier>{cc0538b8-d7d3-400f-9a1f-38907e11da3f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Other\Engine Memory Management">
+      <UniqueIdentifier>{6dee5934-8c1c-4860-86c0-c5e4779b32e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input Output">
+      <UniqueIdentifier>{5e5801b2-23dc-4ab4-85f8-e063ae6dcd2c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DE_engine_matrix.h">
       <Filter>Header Files\Other\Matrix functions</Filter>
     </ClCompile>
@@ -72,6 +72,12 @@
     <ClCompile Include="DE_engine_time.c">
       <Filter>Header Files\Other\Time Functions</Filter>
     </ClCompile>
+    <ClCompile Include="DE_engine_housekeeping.c">
+      <Filter>Header Files\Other\Engine Memory Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DE_engine_input.h">
@@ -88,6 +94,9 @@
     </ClInclude>
     <ClInclude Include="DE_engine_time.h">
       <Filter>Header Files\Other\Time Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="DE_engine_housekeeping.h">
+      <Filter>Header Files\Other\Engine Memory Management</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

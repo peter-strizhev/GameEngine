@@ -54,45 +54,7 @@ int main(int argc, char* argv[])
 // Get mouse x and y
 // Mouse delta x and y
 
-// Math functions -
-	// clamps for int and float -
-	// Lerp for int and float -
-	// Square functions -
-	// distance calculations - 
-	// degree to radians and vice versa -
-
-// Vector Math functions - done
-// Vector set - done
-// Vector zero - done
-// Vector negate - done
-// Vector add - done
-// vector normalize - done
-// vector scale - done
-// matrix multiply - done
-// vector length - done
-// vector distance - done
-// vector dot - done
-// vector cross product - done
-// vector angle - done
-
-// Matrix functions - done
-// Matrix set - done
-// Matrix identity -  done
-// Matrix scale - done
-// Matrix translate - done
-// Matrix rotate - done
-// matrix rotate rads - done
-// Matrix transpose - done
-// Matrix inverse - done
-// matrix multiply - done
-
 // Random functions
-// random bool - Done
-// random int - Done
-// random int range - Done
-// random float - Done
-// random float range - Done
-// random seed - Done
 // random gaussian
 // random noise
 // random noise seed

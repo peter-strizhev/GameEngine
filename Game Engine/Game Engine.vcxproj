@@ -157,6 +157,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DE_engine_housekeeping.c" />
     <ClCompile Include="DE_engine_math.c" />
     <ClCompile Include="DE_engine_math.h" />
     <ClCompile Include="DE_engine_matrix.c" />
@@ -165,9 +166,10 @@
     <ClCompile Include="DE_engine_time.c" />
     <ClCompile Include="DE_engine_vector.c" />
     <ClCompile Include="DE_engine_vector.h" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Main.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DE_engine_housekeeping.h" />
     <ClInclude Include="DE_engine_input.h" />
     <ClInclude Include="DE_engine_random.h" />
     <ClInclude Include="DE_engine_time.h" />
