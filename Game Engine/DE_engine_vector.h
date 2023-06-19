@@ -61,7 +61,7 @@ DE_Vector2 DE_Vector_Scale(DE_Vector2 vec, float scale);
 /// <param name="mat">Matrix to be multiplied</param>
 /// <param name="vec">Vector2 to be multiplied</param>
 /// <returns>Multiplied Matrix</returns>
-DE_Vector2 DE_Vector_MatrixMultiply(DE_Matrix mat, DE_Vector2 vec);
+DE_Vector2 DE_Vector_MatrixMultiply(DE_Matrix3x3 mat, DE_Vector2 vec);
 
 // Fix Later
 //float DE_Vector_Length(DE_Vector2 vec)

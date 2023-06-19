@@ -60,7 +60,7 @@ DE_Vector2 DE_Vector_Scale(DE_Vector2 vec, float scale)
 	return vec;
 }
 
-DE_Vector2 DE_Vector_MatrixMultiply(DE_Matrix mat, DE_Vector2 vec)
+DE_Vector2 DE_Vector_MatrixMultiply(DE_Matrix3x3 mat, DE_Vector2 vec)
 {
 	DE_Vector2 newVec;
 
